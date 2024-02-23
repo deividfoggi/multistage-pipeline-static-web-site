@@ -20,18 +20,20 @@ Each group should have the following variables:
 
 ## Demo the scenario
 
-1.  Create a yaml based build pipeline using the file .azure/azure-pipelines.yml.
+1. Import this repository into Azure Repos: https://learn.microsoft.com/en-us/azure/devops/repos/git/import-git-repository?view=azure-devops
 
-2. Run the pipeline in Azure DevOps.
+2.  Create a yaml based build pipeline using the file .azure/azure-pipelines.yml.
 
-3. Once the pipeline is completed, the static web site will be available in the respective storage account. To access the web site, get the URL in the storage account: Settings > Endpoints > Static website.
+3. Run the pipeline in Azure DevOps.
 
-4. Notice in the website home page that the following values are fullfilled by the pipeline using the variables groups as the source value:
+4. Once the pipeline is completed, the static web site will be available in the respective storage account. To access the web site, get the URL in the storage account: Settings > Endpoints > Static website.
+
+5. Notice in the website home page that the following values are fullfilled by the pipeline using the variables groups as the source value:
 
     - `Environment`
     - `Storage Account`: storage account name
 
-## Expand the scenario
+## Adding new variables
 
 1. Add a new variable in the .env file, for instance:
     
