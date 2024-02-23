@@ -15,7 +15,7 @@ Create three variables groups in Azure DevOps Pipelines Library:
 Each group should have the following variables:
 
 - `resourcegroup` = resource group where the storage account is located
-- `storageaaccount` = storage account name for the respective environment
+- `storageaccount` = storage account name for the respective environment
 
 
 ## Demo the scenario
