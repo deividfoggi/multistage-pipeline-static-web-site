@@ -15,6 +15,13 @@ Each group should have the following variables:
 - `resourcegroup` = resource group where the storage account is located
 - `storageaccount` = storage account name for the respective environment
 
+Create one environment for each stage:
+
+- `staticwebsite-dev`
+- `staticwebsite-hml`
+- `staticwebsite-prd` 
+
+How to: https://learn.microsoft.com/en-us/azure/devops/pipelines/process/environments?view=azure-devops
 
 ## Demo the scenario
 
