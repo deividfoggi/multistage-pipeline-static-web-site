@@ -2,8 +2,6 @@
 
 This project is intended to demonstrate how to create a multi-stage pipeline for a static web site using Azure DevOps and Azure Storage Accounts, including the power to define variables values for each stage/environment.
 
-[![Build Status](https://dev.azure.com/contoso-hq/Static%20Web%20Site/_apis/build/status%2FStatic%20Web%20Site?branchName=main)](https://dev.azure.com/contoso-hq/Static%20Web%20Site/_build/latest?definitionId=15&branchName=main)
-
 ## Set up
 
 Create three variables groups in Azure DevOps Pipelines Library:
