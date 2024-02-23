@@ -1,6 +1,6 @@
-# Multi-stage pipeline for static web site using Storage Accounts
+# Multistage pipeline for static web site using Storage Accounts
 
-This project is intended to demonstrate how to create a multi-stage pipeline for a static web site using Azure DevOps and Azure Storage Accounts, including the power to define variables values for each stage/environment.
+This project is intended to demonstrate how to create a multistage pipeline for a static web site using Azure DevOps and Azure Storage Accounts, including the power to define variables values for each stage/environment.
 
 ## Set up
 
